@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+.btn{
+    @apply m-5 py-2 px-5 text-xl rounded-md font-mono bg-red-600 text-white hover:bg-red-400 hover:text-black;
+}
+.btn-1{
+    @apply m-5 py-1.5 px-4 text-lg rounded-md font-mono bg-red-600 text-white hover:bg-red-400 hover:text-black;
+}
+.btn-2{
+    @apply m-5 py-1 px-3 text-sm rounded-md font-mono bg-red-600 text-white hover:bg-red-400 hover:text-black;
+}
+
+@tailwind utilities;
