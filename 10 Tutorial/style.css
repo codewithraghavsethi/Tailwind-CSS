@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply text-black bg-pink-500 text-xl font-mono m-10 px-6 py-3
+    }
+}
+/* This @layer will apply after your components class not last*/
